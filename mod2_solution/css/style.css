@@ -17,16 +17,28 @@ h1 {
 section{
 	background-color: grey;
 	border: 1px solid black;
-	margin-bottom: 5px;
-	font-family: Times New Roman , Arial , serif;
+	width: 32%;
+	float: left;
+	margin: 0.66%;
+	position: relative;
 }
 
 
 .head {
-	font-size: 40px;
+	font-size: 20px;
 	border: 1px solid black;
 	font-weight: bold;
 	font-family: comic sans ms , Times New Roman , Arial , serif;
+	text-align: center;
+	width: 33%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	overflow: hidden;
+
+}
+
+#base {
 
 }
 
@@ -43,5 +55,31 @@ section{
 }
 
 p{
+	font-family: Times New Roman , Arial , serif;
+	padding: 10px;
+	margin-top: 30px;
+
+}
+
+@media (min-width:768px) and (max-width:991px) {
+
+	#s1 , #s2 {
+	width: 48%;
+	margin: 1%;
+	}
+
+	#s3 {
+		width: 98%;
+		margin : 1%;
+	}
+
+}
+
+@media (max-width:767px) {
+
+	#s1 , #s2 , #s3{
+		width: 98%;
+		margin: 1%;
+	}
 
 }
