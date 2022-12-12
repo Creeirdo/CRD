@@ -1,0 +1,81 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-size: 16px;
+	color: #fff;
+	background-color: #221a35;
+	font-family: 'Comic Neue', cursive;
+}
+
+.container{
+	width: 85%;
+}
+/************** HEADER **************/
+
+#header-nav{
+	background-color: #ed8200;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+#res-name {
+	font-weight: bold;
+	font-size: 3em;
+	color: #fff;
+}
+
+#res-name:hover{
+	text-decoration: none;
+	color:#221a35;;
+}
+
+.navbar-header{
+	margin:20px;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+}
+
+li{
+	margin: 10px;
+}
+
+
+
+/************** HEADER ENDS**************/
+
+/************** MAIN **************/
+
+h1{
+	font-size: 6em;
+	font-weight: bold;
+}
+
+#main-p{
+	background-color: #fff;
+	color:#221a35;
+	border: 1px solid #ed8200;
+	border-radius: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 20px;
+}
+
+/************** MAIN ENDS **************/
+
+
+/************** MEDIA QUERIES **************/
+
+@media(max-width:768px){
+	#res-name{
+		font-size: 2em;
+	}
+	h1{
+		font-size: 4em;
+	}
+}
+
+/************** MEDIA QUERIES ENDS **************/
